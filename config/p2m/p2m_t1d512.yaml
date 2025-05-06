@@ -1,0 +1,17 @@
+model_type : A2MModel_CrossAtten_Pose  # 200M : 20M + 180M
+model:
+
+  motion_num_token : 1
+  motion_in_channel : 512
+  num_step : 1000
+
+  # ----------- pose --------
+  pose_height : 32
+  pose_width : 32 
+  pose_inchannel : 4 
+  pose_patch_size : 2
+
+  # ----------- Diffusion Transformer -----------
+  diffusion_attn_head_dim  : 64
+  diffusion_attn_num_heads : 16
+  diffusion_num_layers : 8

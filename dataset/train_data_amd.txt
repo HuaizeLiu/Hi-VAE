@@ -1,0 +1,3 @@
+/mnt/pfs-gv8sxa/tts/dhg/zqy/data/FaceVid_240h/videos
+/mnt/pfs-gv8sxa/tts/dhg/zqy/data/Asian_emo_25/videos_25
+/mnt/pfs-gv8sxa/tts/dhg/zqy/data/mead/videos

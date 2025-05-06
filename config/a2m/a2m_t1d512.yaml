@@ -1,0 +1,18 @@
+model_type : A2MModel_CrossAtten_Audio  # 200M : 20M + 180M
+model:
+  audio_inchannel  : 384
+  audio_block : 50
+
+  motion_num_token : 1
+  motion_in_channel : 512
+  num_step : 1000
+
+  # ----------- Audio feature encoder -----------
+  intermediate_dim : 1024
+  window_size : 32
+  encoder_out_dim : 1024
+
+  # ----------- Diffusion Transformer -----------
+  diffusion_attn_head_dim  : 64
+  diffusion_attn_num_heads : 16
+  diffusion_num_layers : 8
